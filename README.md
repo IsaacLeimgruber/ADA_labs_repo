@@ -1,4 +1,4 @@
-# ADA_labs_repo
+# ADA labs and project
 This repository contains homeworks for the Applied Data Analysis course
 
 ## 00 - Optional Homework
