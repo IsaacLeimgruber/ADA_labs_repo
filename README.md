@@ -23,6 +23,6 @@ This Homework was split in 3 parts:
   ## 02 - Data from the Web
   In this Homework, we had to extract data from
   [www.topuniversities.com](https://www.topuniversities.com/)
-  [Rankings2018](https://www.topuniversities.com/university-rankings/world-university-rankings/2018)
+  [Rankings2018](https://www.topuniversities.com/university-rankings/world-university-rankings/2018) and 
   [hwww.timeshighereducation.com](https://www.timeshighereducation.com/)
   [Rankings2018](https://www.timeshighereducation.com/world-university-rankings/2018/world-ranking#!/page/0/length/25/sort_by/rank/sort_order/asc/cols/stats) by identifying the data requests and scrapping some html. We then manipulated the data to calcul different ratios which we tried to correlate with the ranking.
