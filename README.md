@@ -25,4 +25,13 @@ This Homework was split in 3 parts:
   [www.topuniversities.com](https://www.topuniversities.com/)
   ([Rankings2018](https://www.topuniversities.com/university-rankings/world-university-rankings/2018)) and 
   [hwww.timeshighereducation.com](https://www.timeshighereducation.com/)
-  ([Rankings2018](https://www.timeshighereducation.com/world-university-rankings/2018/world-ranking#!/page/0/length/25/sort_by/rank/sort_order/asc/cols/stats)) by identifying the data requests and scrapping some html. We then manipulated the data to calcul different ratios which we tried to correlate with the ranking.
+  ([Rankings2018](https://www.timeshighereducation.com/world-university-rankings/2018/world-ranking#!/page/0/length/25/sort_by/rank/sort_order/asc/cols/stats)) by identifying the data requests and scrapping some html. 
+   
+   We computed some statistcs on both ranking, such as ratio between faculty members and students or ratio of international students. Some of those were included in the data of the website, some we computed ourselves. 
+   
+   
+   We then merged the two into a single Pandas DataFrame. With this merged data, we computed correlation between colunm and porposed a way to better rank the universities based on the two ranks.  
+
+  
+
+
