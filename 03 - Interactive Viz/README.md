@@ -1,6 +1,5 @@
 # 03 - Interactive Viz
 
-[map colored](maps/01_map_colored/europe_map_colored.html)
 ## Deadline
 
 Wednesday November 8th, 2017 at 11:59PM
