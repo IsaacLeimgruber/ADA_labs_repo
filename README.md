@@ -1,6 +1,9 @@
 # ADA labs and project
 This repository contains homeworks for the Applied Data Analysis course
 
+<a href="maps/01_map_colored/europe_map_colored.html">link text</a>
+[map colored](maps/01_map_colored/europe_map_colored.html)
+
 ## 00 - Optional Homework
 In this Homework, the task was to use the Data provided in "interactive_data.csv" to obtain extract the same values and ratios as presented on [gunshot deaths](https://fivethirtyeight.com/features/gun-deaths/)
 
