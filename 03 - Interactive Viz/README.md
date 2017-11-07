@@ -2,8 +2,6 @@
 
 ## Deadline
 
-<a href="https://www.topuniversities.com/">www.topuniversities.com</a>
-
 Wednesday November 8th, 2017 at 11:59PM
 
 ## Important Notes
