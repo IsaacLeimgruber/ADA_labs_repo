@@ -1,0 +1,301 @@
+num,Year,Power plant,production/ used electricity
+22298,1990,Total,electric production in Gwh
+86.6,1990,Total,used electricity %
+2540,1990,Beznau 1,electric production in Gwh
+83.3,1990,Beznau 1,used electricity %
+2617,1990,Beznau 2,electric production in Gwh
+85.5,1990,Beznau 2,used electricity %
+2489,1990,Muhleberg,electric production in Gwh
+88.8,1990,Muhleberg,used electricity %
+7080,1990,Gosgen,electric production in Gwh
+86.7,1990,Gosgen,used electricity %
+7572,1990,Leibstadt,electric production in Gwh
+87.3,1990,Leibstadt,used electricity %
+21654,1991,Total,electric production in Gwh
+83.8,1991,Total,used electricity %
+2474,1991,Beznau 1,electric production in Gwh
+81.2,1991,Beznau 1,used electricity %
+2601,1991,Beznau 2,electric production in Gwh
+84.9,1991,Beznau 2,used electricity %
+2423,1991,Muhleberg,electric production in Gwh
+86.4,1991,Muhleberg,used electricity %
+7096,1991,Gosgen,electric production in Gwh
+86.9,1991,Gosgen,used electricity %
+7060,1991,Leibstadt,electric production in Gwh
+81.4,1991,Leibstadt,used electricity %
+22121,1992,Total,electric production in Gwh
+85.6,1992,Total,used electricity %
+2456,1992,Beznau 1,electric production in Gwh
+80.3,1992,Beznau 1,used electricity %
+2354,1992,Beznau 2,electric production in Gwh
+76.6,1992,Beznau 2,used electricity %
+2421,1992,Muhleberg,electric production in Gwh
+86.1,1992,Muhleberg,used electricity %
+7352,1992,Gosgen,electric production in Gwh
+89.8,1992,Gosgen,used electricity %
+7538,1992,Leibstadt,electric production in Gwh
+86.7,1992,Leibstadt,used electricity %
+22029,1993,Total,electric production in Gwh
+85.1,1993,Total,used electricity %
+2145,1993,Beznau 1,electric production in Gwh
+70.3,1993,Beznau 1,used electricity %
+2617,1993,Beznau 2,electric production in Gwh
+85.5,1993,Beznau 2,used electricity %
+2580,1993,Muhleberg,electric production in Gwh
+87.9,1993,Muhleberg,used electricity %
+7349,1993,Gosgen,electric production in Gwh
+90,1993,Gosgen,used electricity %
+7338,1993,Leibstadt,electric production in Gwh
+84.6,1993,Leibstadt,used electricity %
+22984,1994,Total,electric production in Gwh
+88.2,1994,Total,used electricity %
+2668,1994,Beznau 1,electric production in Gwh
+87.5,1994,Beznau 1,used electricity %
+3052,1994,Beznau 2,electric production in Gwh
+99.6,1994,Beznau 2,used electricity %
+2654,1994,Muhleberg,electric production in Gwh
+85.3,1994,Muhleberg,used electricity %
+7614,1994,Gosgen,electric production in Gwh
+93.2,1994,Gosgen,used electricity %
+6996,1994,Leibstadt,electric production in Gwh
+80.7,1994,Leibstadt,used electricity %
+23486,1995,Total,electric production in Gwh
+88.2,1995,Total,used electricity %
+2823,1995,Beznau 1,electric production in Gwh
+92.6,1995,Beznau 1,used electricity %
+2553,1995,Beznau 2,electric production in Gwh
+83.3,1995,Beznau 2,used electricity %
+2668,1995,Muhleberg,electric production in Gwh
+85.8,1995,Muhleberg,used electricity %
+7765,1995,Gosgen,electric production in Gwh
+92.5,1995,Gosgen,used electricity %
+7677,1995,Leibstadt,electric production in Gwh
+85.1,1995,Leibstadt,used electricity %
+23719,1996,Total,electric production in Gwh
+88.5,1996,Total,used electricity %
+2728,1996,Beznau 1,electric production in Gwh
+88.3,1996,Beznau 1,used electricity %
+2747,1996,Beznau 2,electric production in Gwh
+88.9,1996,Beznau 2,used electricity %
+2659,1996,Muhleberg,electric production in Gwh
+85.3,1996,Muhleberg,used electricity %
+7872,1996,Gosgen,electric production in Gwh
+93,1996,Gosgen,used electricity %
+7713,1996,Leibstadt,electric production in Gwh
+85.2,1996,Leibstadt,used electricity %
+23971,1997,Total,electric production in Gwh
+89.2,1997,Total,used electricity %
+2688,1997,Beznau 1,electric production in Gwh
+84.5,1997,Beznau 1,used electricity %
+3083,1997,Beznau 2,electric production in Gwh
+98.7,1997,Beznau 2,used electricity %
+2561,1997,Muhleberg,electric production in Gwh
+82.4,1997,Muhleberg,used electricity %
+7850,1997,Gosgen,electric production in Gwh
+93,1997,Gosgen,used electricity %
+7789,1997,Leibstadt,electric production in Gwh
+86.3,1997,Leibstadt,used electricity %
+24368,1998,Total,electric production in Gwh
+90.4,1998,Total,used electricity %
+3157,1998,Beznau 1,electric production in Gwh
+99.3,1998,Beznau 1,used electricity %
+2711,1998,Beznau 2,electric production in Gwh
+86.7,1998,Beznau 2,used electricity %
+2670,1998,Muhleberg,electric production in Gwh
+85.9,1998,Muhleberg,used electricity %
+7783,1998,Gosgen,electric production in Gwh
+92.3,1998,Gosgen,used electricity %
+8047,1998,Leibstadt,electric production in Gwh
+85.1,1998,Leibstadt,used electricity %
+23523,1999,Total,electric production in Gwh
+86.2,1999,Total,used electricity %
+2810,1999,Beznau 1,electric production in Gwh
+88.4,1999,Beznau 1,used electricity %
+2210,1999,Beznau 2,electric production in Gwh
+70.7,1999,Beznau 2,used electricity %
+2712,1999,Muhleberg,electric production in Gwh
+87.2,1999,Muhleberg,used electricity %
+7468,1999,Gosgen,electric production in Gwh
+88.6,1999,Gosgen,used electricity %
+8323,1999,Leibstadt,electric production in Gwh
+88,1999,Leibstadt,used electricity %
+24949,2000,Total,electric production in Gwh
+89.1,2000,Total,used electricity %
+2503,2000,Beznau 1,electric production in Gwh
+78.5,2000,Beznau 1,used electricity %
+3048,2000,Beznau 2,electric production in Gwh
+95.1,2000,Beznau 2,used electricity %
+2829,2000,Muhleberg,electric production in Gwh
+90.7,2000,Muhleberg,used electricity %
+7744,2000,Gosgen,electric production in Gwh
+91.7,2000,Gosgen,used electricity %
+8825,2000,Leibstadt,electric production in Gwh
+87.7,2000,Leibstadt,used electricity %
+25293,2001,Total,electric production in Gwh
+90.3,2001,Total,used electricity %
+3062,2001,Beznau 1,electric production in Gwh
+96.1,2001,Beznau 1,used electricity %
+2559,2001,Beznau 2,electric production in Gwh
+79.8,2001,Beznau 2,used electricity %
+2778,2001,Muhleberg,electric production in Gwh
+89.1,2001,Muhleberg,used electricity %
+7804,2001,Gosgen,electric production in Gwh
+92.4,2001,Gosgen,used electricity %
+9090,2001,Leibstadt,electric production in Gwh
+90.4,2001,Leibstadt,used electricity %
+25692,2002,Total,electric production in Gwh
+91.7,2002,Total,used electricity %
+2884,2002,Beznau 1,electric production in Gwh
+90.7,2002,Beznau 1,used electricity %
+3001,2002,Beznau 2,electric production in Gwh
+93.9,2002,Beznau 2,used electricity %
+2839,2002,Muhleberg,electric production in Gwh
+91.3,2002,Muhleberg,used electricity %
+7795,2002,Gosgen,electric production in Gwh
+92.5,2002,Gosgen,used electricity %
+9173,2002,Leibstadt,electric production in Gwh
+90.9,2002,Leibstadt,used electricity %
+25931,2003,Total,electric production in Gwh
+92.2,2003,Total,used electricity %
+3038,2003,Beznau 1,electric production in Gwh
+95.6,2003,Beznau 1,used electricity %
+2912,2003,Beznau 2,electric production in Gwh
+91.1,2003,Beznau 2,used electricity %
+2748,2003,Muhleberg,electric production in Gwh
+88.4,2003,Muhleberg,used electricity %
+7924,2003,Gosgen,electric production in Gwh
+94,2003,Gosgen,used electricity %
+9309,2003,Leibstadt,electric production in Gwh
+91.2,2003,Leibstadt,used electricity %
+25432,2004,Total,electric production in Gwh
+90.2,2004,Total,used electricity %
+2775,2004,Beznau 1,electric production in Gwh
+87.2,2004,Beznau 1,used electricity %
+3091,2004,Beznau 2,electric production in Gwh
+96.5,2004,Beznau 2,used electricity %
+2920,2004,Muhleberg,electric production in Gwh
+93.6,2004,Muhleberg,used electricity %
+7954,2004,Gosgen,electric production in Gwh
+94.1,2004,Gosgen,used electricity %
+8692,2004,Leibstadt,electric production in Gwh
+84.9,2004,Leibstadt,used electricity %
+22020,2005,Total,electric production in Gwh
+78.3,2005,Total,used electricity %
+3069,2005,Beznau 1,electric production in Gwh
+96.6,2005,Beznau 1,used electricity %
+2796,2005,Beznau 2,electric production in Gwh
+87.5,2005,Beznau 2,used electricity %
+2857,2005,Muhleberg,electric production in Gwh
+91.9,2005,Muhleberg,used electricity %
+7530,2005,Gosgen,electric production in Gwh
+89.3,2005,Gosgen,used electricity %
+5768,2005,Leibstadt,electric production in Gwh
+56.5,2005,Leibstadt,used electricity %
+26244,2006,Total,electric production in Gwh
+93.4,2006,Total,used electricity %
+2920,2006,Beznau 1,electric production in Gwh
+91.9,2006,Beznau 1,used electricity %
+3058,2006,Beznau 2,electric production in Gwh
+95.7,2006,Beznau 2,used electricity %
+2867,2006,Muhleberg,electric production in Gwh
+92.2,2006,Muhleberg,used electricity %
+8032,2006,Gosgen,electric production in Gwh
+95.4,2006,Gosgen,used electricity %
+9367,2006,Leibstadt,electric production in Gwh
+91.8,2006,Leibstadt,used electricity %
+26344,2007,Total,electric production in Gwh
+93.7,2007,Total,used electricity %
+3045,2007,Beznau 1,electric production in Gwh
+95.8,2007,Beznau 1,used electricity %
+2894,2007,Beznau 2,electric production in Gwh
+90.5,2007,Beznau 2,used electricity %
+2881,2007,Muhleberg,electric production in Gwh
+92.6,2007,Muhleberg,used electricity %
+8087,2007,Gosgen,electric production in Gwh
+96.1,2007,Gosgen,used electricity %
+9437,2007,Leibstadt,electric production in Gwh
+92.5,2007,Leibstadt,used electricity %
+26132,2008,Total,electric production in Gwh
+92.7,2008,Total,used electricity %
+2918,2008,Beznau 1,electric production in Gwh
+91.7,2008,Beznau 1,used electricity %
+3052,2008,Beznau 2,electric production in Gwh
+95.2,2008,Beznau 2,used electricity %
+2956,2008,Muhleberg,electric production in Gwh
+94.8,2008,Muhleberg,used electricity %
+7898,2008,Gosgen,electric production in Gwh
+93.5,2008,Gosgen,used electricity %
+9308,2008,Leibstadt,electric production in Gwh
+91,2008,Leibstadt,used electricity %
+26119,2009,Total,electric production in Gwh
+92.4,2009,Total,used electricity %
+3025,2009,Beznau 1,electric production in Gwh
+95.3,2009,Beznau 1,used electricity %
+2742,2009,Beznau 2,electric production in Gwh
+85.8,2009,Beznau 2,used electricity %
+2954,2009,Muhleberg,electric production in Gwh
+90.4,2009,Muhleberg,used electricity %
+8013,2009,Gosgen,electric production in Gwh
+95.1,2009,Gosgen,used electricity %
+9385,2009,Leibstadt,electric production in Gwh
+92,2009,Leibstadt,used electricity %
+25205,2010,Total,electric production in Gwh
+88.7,2010,Total,used electricity %
+2634,2010,Beznau 1,electric production in Gwh
+83.1,2010,Beznau 1,used electricity %
+2832,2010,Beznau 2,electric production in Gwh
+88.6,2010,Beznau 2,used electricity %
+2976,2010,Muhleberg,electric production in Gwh
+91.1,2010,Muhleberg,used electricity %
+7979,2010,Gosgen,electric production in Gwh
+93.1,2010,Gosgen,used electricity %
+8784,2010,Leibstadt,electric production in Gwh
+86.1,2010,Leibstadt,used electricity %
+25560,2011,Total,electric production in Gwh
+89.3,2011,Total,used electricity %
+3022,2011,Beznau 1,electric production in Gwh
+95.2,2011,Beznau 1,used electricity %
+2715,2011,Beznau 2,electric production in Gwh
+84.9,2011,Beznau 2,used electricity %
+2482,2011,Muhleberg,electric production in Gwh
+76,2011,Muhleberg,used electricity %
+7859,2011,Gosgen,electric production in Gwh
+91.7,2011,Gosgen,used electricity %
+9482,2011,Leibstadt,electric production in Gwh
+91,2011,Leibstadt,used electricity %
+24345,2012,Total,electric production in Gwh
+84.9,2012,Total,used electricity %
+2683,2012,Beznau 1,electric production in Gwh
+84.4,2012,Beznau 1,used electricity %
+2770,2012,Beznau 2,electric production in Gwh
+86.5,2012,Beznau 2,used electricity %
+2993,2012,Muhleberg,electric production in Gwh
+91.3,2012,Muhleberg,used electricity %
+8015,2012,Gosgen,electric production in Gwh
+93.4,2012,Gosgen,used electricity %
+7884,2012,Leibstadt,electric production in Gwh
+75.4,2012,Leibstadt,used electricity %
+24871,2013,Total,electric production in Gwh
+86.1,2013,Total,used electricity %
+3012,2013,Beznau 1,electric production in Gwh
+95,2013,Beznau 1,used electricity %
+2846,2013,Beznau 2,electric production in Gwh
+89.1,2013,Beznau 2,used electricity %
+2940,2013,Muhleberg,electric production in Gwh
+90,2013,Muhleberg,used electricity %
+6382,2013,Gosgen,electric production in Gwh
+74.5,2013,Gosgen,used electricity %
+9691,2013,Leibstadt,electric production in Gwh
+90.7,2013,Leibstadt,used electricity %
+26370,2014,Total,electric production in Gwh
+90.9,2014,Total,used electricity %
+2884,2014,Beznau 1,electric production in Gwh
+90.8,2014,Beznau 1,used electricity %
+3029,2014,Beznau 2,electric production in Gwh
+94.8,2014,Beznau 2,used electricity %
+3027,2014,Muhleberg,electric production in Gwh
+92.6,2014,Muhleberg,used electricity %
+7972,2014,Gosgen,electric production in Gwh
+91.9,2014,Gosgen,used electricity %
+9458,2014,Leibstadt,electric production in Gwh
+88.5,2014,Leibstadt,used electricity %
