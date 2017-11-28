@@ -39,5 +39,6 @@ With interact such as:
 - Possibility to select a given year and to have visual decription (barplot or similar). 
 
 # Questions for TAs
-No Questions for now.
 Please Look at the Project_Final.ipynb (the Interaction.ipynb use Jupyter Widget and for now don't work on git for now')
+
+We did some analysis on the data and we want to do something more visual too, but will it be accepted for the project?
