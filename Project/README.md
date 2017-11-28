@@ -40,3 +40,4 @@ With interact such as:
 
 # Questions for TAs
 No Questions for now.
+Please Look at the Project_Final.ipynb (the Interaction.ipynb use Jupyter Widget and for now don't work on git for now')
