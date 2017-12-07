@@ -10,7 +10,7 @@ let root = d3.select("#root")
 let left = root.append("div")
     .attr("id", "left")
     .style("height", 100 + "%")
-    .style("width", cst.graph_width + "%")
+    .style("width", cst.left_width + "%")
     .style("float", "left")
     .style("position", "absolute")
     .attr("display", "inline-block");
@@ -30,13 +30,15 @@ let sub_graph_svg = left.append("svg")
     .style("width", 100 + "%")
     .style("float", "left")
     .style("position", "absolute")
-    .attr("display", "inline-block");
+    .attr("display", "inline-block")
+    //.attr("viewBox", "0 0 600 400")
+    //.attr("preserveAspectRatio", "none");
 
 let right = root.append("div")
     .attr("id","right")
     .style("left", sub_cst.right_x + "%")
     .style("height", 100 + "%")
-    .style("width", cst.graph_width + "%")
+    .style("width", cst.left_width + "%")
     .style("float", "left")
     .style("position", "absolute")
     .attr("display", "inline-block");

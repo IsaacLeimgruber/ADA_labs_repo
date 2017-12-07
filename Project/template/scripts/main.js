@@ -9,6 +9,6 @@ sub_graph_svg.append("rect")
     .style("height", 100 + "%");
 
 
-d3.csv("../data/electric_production.csv", function (data) {
+d3.csv("../data/final_data_perc.csv", function (data) {
     console.log(data)
 });

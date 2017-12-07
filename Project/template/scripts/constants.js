@@ -1,7 +1,9 @@
 const cst = {
-    graph_width: 60,
+    left_width: 60,
     graph_height: 55,
-    picture_height: 50
+    picture_height: 50,
+    vb_width: 600,
+    vb_height: 400
 };
 
 const margins = {
@@ -10,10 +12,10 @@ const margins = {
 };
 
 const sub_cst = {
-    sub_graph_width: cst.graph_width,
     sub_graph_height: 100 - cst.graph_height - margins.inner,
-    right_x: cst.graph_width + margins.inner,
+    right_x: cst.left_width + margins.inner,
     sub_graph_y: cst.graph_height + margins.inner,
     dscr_y: cst.picture_height + margins.inner,
     dscr_height: 100 - cst.picture_height - margins.inner
+
 };
