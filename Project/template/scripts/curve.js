@@ -49,7 +49,7 @@ class Curve{
         sub_graph_svg.selectAll(".curve_path").remove();
         document.getElementById("sub_checkboxes").innerHTML = "";
         d3.csv(this.sub_path, function(data){
-            console.log(data);
+            console.log("sub_curves", data);
             let keys = d3.keys(data[0]);
             let years = [];
             let sub_curves = [];
@@ -89,12 +89,10 @@ class Curve{
     };
 
     add_checkbox(){
-        console.log("add");
         let label= document.createElement("label");
         let description = document.createTextNode(this.id);
         this.checkbox = document.createElement("input");
         let self = this;
-        console.log("color", this.color);
         label.style.color = this.color;
         this.checkbox.type = "checkbox";
         this.checkbox.name = "chbx";

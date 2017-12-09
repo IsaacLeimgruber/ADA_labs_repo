@@ -34,8 +34,8 @@ d3.csv(DATA_FOLDER + "final_data_perc.csv", function (data) {
         }
         //curves[0].draw(helpers.line(axis.year_scale, axis.y_scale, keys[0], first_year));
         //curves[0].add_checkbox();
-        console.log(axis.year_scale(+(first_year / 1 + 1)));
-        console.log(years);
-        console.log(curves)
+        //console.log(axis.year_scale(+(first_year / 1 + 1)));
+        console.log("year", years);
+        console.log("main_curves", curves)
 
 });
