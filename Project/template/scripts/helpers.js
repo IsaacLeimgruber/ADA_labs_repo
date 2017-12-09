@@ -7,7 +7,7 @@ const helpers = {};
 * Industrial waste and scrap in % // Other renewable energies in %
 * Wood and charcoal in % // Year
 */
-helpers.load_main_data = function(keys, data, sub_paths, years, curves, colors){
+helpers.load_main_data = function(keys, data, sub_paths, years, curves){
     let iKey = 0;
     keys.forEach(function(key){
         let tmp_arr = [];
@@ -20,10 +20,35 @@ helpers.load_main_data = function(keys, data, sub_paths, years, curves, colors){
         }
         if(key !== 'Year'){
             curves[iKey] = (new Curve(key, tmp_arr.slice(),DATA_FOLDER + sub_paths[iKey], sub_graph_svg,
-                graph_svg, colors[iKey]));
+                graph_svg, COLORS[iKey]));
             iKey ++;
         }
     });
+};
+
+helpers.load_sub_data = function(keys, data, sub_paths, years, sub_curves){
+    let iKey = 0;
+    let max = 0
+    keys.forEach(function(key){
+        let tmp_arr = [];
+        for(let iRow = 0; iRow < data.length; iRow++){
+            let val = data[iRow][key];
+            if(key === 'Year'){
+                years[iRow] = val
+            }else{
+                tmp_arr[iRow] = +(val)
+                if(+val > max){
+                    max = val;
+                }
+            }
+        }
+        if(key !== 'Year'){
+            sub_curves[iKey] = (new SubCurve(key, tmp_arr.slice(),DATA_FOLDER + sub_paths[iKey], sub_graph_svg,
+                graph_svg, COLORS[iKey]));
+            iKey ++;
+        }
+    });
+    return max;
 };
 
 helpers.line = function(scale_x, scale_y, key, first_year){

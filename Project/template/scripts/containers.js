@@ -9,11 +9,14 @@ let root = d3.select("#root")
 
 let left = root.append("div")
     .attr("id", "left")
-    .style("height", 100 + "%")
+    .style("height", sub_cst.left_height + "%")
+    .style("left", 0)
+    .style("top", margins.inner + cst.checkbox_height + "%")
     .style("width", cst.left_width + "%")
     .style("float", "left")
     .style("position", "absolute")
-    .style("display", "inline-block");
+    .style("display", "inline-block")
+    .attr("class", "no_pointer_event");
 
 let graph_svg = left.append("svg")
     .attr("id", "graph")
@@ -23,7 +26,8 @@ let graph_svg = left.append("svg")
     .style("position", "absolute")
     .style("display", "inline-block")
     .attr("viewBox", "0 0 600 400")
-    .attr("preserveAspectRatio", "none");
+    .attr("preserveAspectRatio", "none")
+    .attr("pointer-events", "auto");
 
 let sub_graph_svg = left.append("svg")
     .attr("id", "sub_graph")
@@ -34,13 +38,14 @@ let sub_graph_svg = left.append("svg")
     .style("position", "absolute")
     .style("display", "inline-block")
     .attr("viewBox", "0 0 600 400")
-    .attr("preserveAspectRatio", "none");
+    .attr("preserveAspectRatio", "none")
+    .attr("pointer-events", "auto");
 
 let right = root.append("div")
     .attr("id","right")
     .style("left", sub_cst.right_x + "%")
     .style("height", 100 + "%")
-    .style("width", cst.left_width + "%")
+    .style("width", 100 - cst.left_width - margins.inner + "%")
     .style("float", "left")
     .style("position", "absolute")
     .style("display", "inline-block");
@@ -61,3 +66,18 @@ let description = right.append("div")
     .style("float", "left")
     .style("position", "absolute")
     .style("display", "inline-block");
+
+let checkbox = d3.select("#checkboxes")
+    .style("width", cst.left_width + "%")
+    .style("height", cst.checkbox_height + "%")
+    .style("display", "inline-block")
+;
+
+let sub_checkbox = d3.select("#sub_checkboxes")
+    .style("width", cst.left_width + "%")
+    .style("height", cst.sub_checkbox_height + "%")
+    .style("top", sub_cst.sub_checkbox_y + "%")
+    .style("position", "absolute")
+    .style("display", "inline-block")
+    .style("left", 0)
+;

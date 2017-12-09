@@ -9,8 +9,8 @@
 *
 * */
 
-const STROKE = 3;
-const STROKE_OVER = 4;
+const STROKE = 4;
+const STROKE_OVER = 5;
 
 class Curve{
     constructor(key, data, sub_path, sub_svg, svg, color){
@@ -22,14 +22,16 @@ class Curve{
         this.color = color;
         this.stroke_width = STROKE;
         this.div_checkbox = "checkboxes";
+        this.sub_curves = [];
         this.ref = 0;
         this.checkbox = 0;
     }
 
-    draw(line){
-        this.ref = this.svg.append("path")
+    draw(line, svg){
+        this.ref = svg.append("path")
             .datum(this.data)
             .attr("id", this.id)
+            .attr("class", "curve_path")
             .attr("fill", "none")
             .attr("stroke", this.color)
             .attr("stroke-linejoin", "round")
@@ -44,8 +46,30 @@ class Curve{
     }
 
     curve_click(evt){
+        sub_graph_svg.selectAll(".curve_path").remove();
+        document.getElementById("sub_checkboxes").innerHTML = "";
         d3.csv(this.sub_path, function(data){
-            console.log(data)
+            console.log(data);
+            let keys = d3.keys(data[0]);
+            let years = [];
+            let sub_curves = [];
+            let max = 0;
+            max = helpers.load_sub_data(keys, data, sub_paths, years, sub_curves, max);
+
+            const first_year = years[0];
+            const last_year = years[years.length - 1];
+
+            axis.sub_year_scale.domain([first_year, last_year]);
+            axis.sub_year_ref.call(axis.sub_year_axis);
+            axis.sub_y_scale.domain([max, 0]);
+            axis.sub_y_ref.call(axis.sub_y_axis);
+
+            for(let i = 0; i < sub_curves.length; i++){
+                sub_curves[i]
+                    .draw(helpers.line(axis.sub_year_scale, axis.sub_y_scale, keys[0], first_year), sub_graph_svg);
+                sub_curves[i].add_checkbox();
+            }
+
         })
     }
     out(evt){
@@ -67,9 +91,11 @@ class Curve{
     add_checkbox(){
         console.log("add");
         let label= document.createElement("label");
-        let description = document.createTextNode("");
+        let description = document.createTextNode(this.id);
         this.checkbox = document.createElement("input");
         let self = this;
+        console.log("color", this.color);
+        label.style.color = this.color;
         this.checkbox.type = "checkbox";
         this.checkbox.name = "chbx";
         this.checkbox.id = this.checkbox_id;
@@ -86,6 +112,10 @@ class SubCurve extends Curve{
     constructor(key, data, sub_path, sub_svg, svg, color){
         super(key, data, sub_path, sub_svg, svg, color);
         this.div_checkbox = "sub_checkboxes";
+    }
+
+    curve_click(){
+        console.log("subcurve_click")
     }
 
 }

@@ -1,26 +1,40 @@
 const axis = {};
 
-axis.year_scale = d3.scaleLinear()
-    .range([0, sub_cst.vb_graph_width]);
+axis.init_scale = function(range){
+    return d3.scaleLinear()
+        .range(range);
+};
+axis.init_axis_hor = function(scale){
+    return d3.axisBottom()
+        .scale(scale)
+        .tickFormat(d3.format("d"));
+};
+axis.init_axis_vert = function(scale){
+    return d3.axisLeft()
+        .scale(scale)
+        .tickFormat(d3.format("d"));
+};
+axis.init_ref = function(x, y, svg){
+    return svg.append("g")
+        .style("font", "10px Verdana")
+        .attr("transform", "translate(" + +(x) + "," + +(y) + ")")
+        .attr("class", "axis unfocusable no_pointer_event");
+};
 
-axis.year_axis = d3.axisBottom()
-    .scale(axis.year_scale)
-    .tickFormat(d3.format("d"));
+axis.year_scale = axis.init_scale([0, sub_cst.vb_graph_width]);
+axis.year_axis = axis.init_axis_hor(axis.year_scale);
+axis.year_ref = axis.init_ref(sub_cst.vb_graph_axis_x,  sub_cst.vb_graph_axis_hor_y, graph_svg);
 
-axis.year_ref = graph_svg.append("g")
-    .style("font", "10px Verdana")
-    .attr("transform", "translate(" + sub_cst.vb_graph_axis_x + "," + +(sub_cst.vb_graph_axis_hor_y) + ")")
-    .attr("class", "axis unfocusable no_pointer_event");
+axis.y_scale = axis.init_scale([0, sub_cst.vb_graph_height]);
+axis.y_axis = axis.init_axis_vert(axis.y_scale);
+axis.y_ref = axis.init_ref(sub_cst.vb_graph_axis_x, sub_cst.vb_graph_axis_vert_y, graph_svg);
 
-axis.y_scale = d3.scaleLinear()
-    .range([0, sub_cst.vb_graph_height]);
+axis.sub_year_scale = axis.init_scale([0, sub_cst.vb_graph_width]);
+axis.sub_year_axis = axis.init_axis_hor(axis.sub_year_scale);
+axis.sub_year_ref = axis.init_ref(sub_cst.vb_graph_axis_x, sub_cst.vb_graph_axis_hor_y, sub_graph_svg);
 
-axis.y_axis = d3.axisLeft()
-    .scale(axis.y_scale)
-    .tickFormat(d3.format("d"));
+axis.sub_y_scale = axis.init_scale([0, sub_cst.vb_graph_height]);
+axis.sub_y_axis = axis.init_axis_vert(axis.sub_y_scale);
+axis.sub_y_ref = axis.init_ref(sub_cst.vb_graph_axis_x, sub_cst.vb_graph_axis_vert_y, sub_graph_svg);
 
-axis.y_ref = graph_svg.append("g")
-    .style("font", "10px Verdana")
-    .attr("transform", "translate(" + sub_cst.vb_graph_axis_x + "," + +(sub_cst.vb_graph_axis_vert_y) + ")")
-    .attr("class", "axis unfocusable no_pointer_event");
 
