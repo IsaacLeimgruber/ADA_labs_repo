@@ -5,7 +5,7 @@ let root = d3.select("#root")
     .style("top", margins.root + "%")
     .style("float", "left")
     .style("position", "absolute")
-    .attr("display", "inline-block");
+    .style("display", "inline-block");
 
 let left = root.append("div")
     .attr("id", "left")
@@ -13,7 +13,7 @@ let left = root.append("div")
     .style("width", cst.left_width + "%")
     .style("float", "left")
     .style("position", "absolute")
-    .attr("display", "inline-block");
+    .style("display", "inline-block");
 
 let graph_svg = left.append("svg")
     .attr("id", "graph")
@@ -21,7 +21,9 @@ let graph_svg = left.append("svg")
     .style("width", 100 + "%")
     .style("float", "left")
     .style("position", "absolute")
-    .attr("display", "inline-block");
+    .style("display", "inline-block")
+    .attr("viewBox", "0 0 600 400")
+    .attr("preserveAspectRatio", "none");
 
 let sub_graph_svg = left.append("svg")
     .attr("id", "sub_graph")
@@ -30,9 +32,9 @@ let sub_graph_svg = left.append("svg")
     .style("width", 100 + "%")
     .style("float", "left")
     .style("position", "absolute")
-    .attr("display", "inline-block")
-    //.attr("viewBox", "0 0 600 400")
-    //.attr("preserveAspectRatio", "none");
+    .style("display", "inline-block")
+    .attr("viewBox", "0 0 600 400")
+    .attr("preserveAspectRatio", "none");
 
 let right = root.append("div")
     .attr("id","right")
@@ -41,7 +43,7 @@ let right = root.append("div")
     .style("width", cst.left_width + "%")
     .style("float", "left")
     .style("position", "absolute")
-    .attr("display", "inline-block");
+    .style("display", "inline-block");
 
 let picture = right.append("div")
     .attr("id", "picture")
@@ -49,7 +51,7 @@ let picture = right.append("div")
     .style("width", 100 + "%")
     .style("float", "left")
     .style("position", "absolute")
-    .attr("display", "inline-block");
+    .style("display", "inline-block");
 
 let description = right.append("div")
     .attr("id", "descr")
@@ -58,4 +60,4 @@ let description = right.append("div")
     .style("width", 100 + "%")
     .style("float", "left")
     .style("position", "absolute")
-    .attr("display", "inline-block");
+    .style("display", "inline-block");
