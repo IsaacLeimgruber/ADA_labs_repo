@@ -56,6 +56,8 @@ let picture = right.append("div")
     .style("width", 100 + "%")
     .style("float", "left")
     .style("position", "absolute")
+    .attr("viewBox", "0 0 58 50")
+    .attr("preserveAspectRatio", "xMinYMin")
     .style("display", "inline-block");
 
 let description = right.append("div")

@@ -12,6 +12,9 @@ const sub_paths = [
     "trans_prod_nuc_perc.csv"
 ];
 
+const description_paths = [];
+const img_paths = [];
+
 d3.csv(DATA_FOLDER + "final_data_perc.csv", function (data) {
 
         let keys = d3.keys(data[0]);

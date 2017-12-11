@@ -17,10 +17,17 @@ class Curve{
         this.id = key;
         this.data = data;
         this.svg = svg;
-        this.sub_svg = sub_svg;
+        this.img_path = 'https://i.ytimg.com/vi/HPIWXIY2tRE/hqdefault.jpg';
+        this.descr = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. " +
+            "Sed at purus et purus congue convallis. In aliquam turpis nec pharetra scelerisque. " +
+            "In lobortis pharetra urna eget faucibus. Etiam eu nisi id nibh luctus sollicitudin a eu risus. " +
+            "Vestibulum molestie tristique aliquet. Aenean venenatis, orci sed fermentum mollis, dui eros maximus mi," +
+            " a semper lacus diam at felis. Fusce quam augue, tempus ut quam ut, vestibulum malesuada ex." +
+            " Pellentesque e" +
+            "t augue tellus. Nam bibendum turpis dolor, at iaculis mi semper dictum. " +
+            "In tellus augue, accumsan vel vehicula vel, iaculis eu lorem. Integer ac interdum tellus.";
         this.sub_path = sub_path;
         this.color = color;
-        this.stroke_width = STROKE;
         this.div_checkbox = "checkboxes";
         this.sub_curves = [];
         this.ref = 0;
@@ -45,9 +52,25 @@ class Curve{
         dom.addEventListener("click", function(event) {self.curve_click(event)})
     }
 
+    load_img(s){
+        let myImage = new Image();
+        myImage.id = "image";
+        myImage.src = s.img_path;
+        myImage.setAttribute("class","unfocusable no_pointer_event");
+        let picture = document.getElementById("picture");
+        picture.innerHTML = "";
+        picture.appendChild(myImage);
+    }
+
+    load_descr(s){
+        let descr = document.getElementById("descr");
+        descr.textContent = s.descr;
+    }
+
     curve_click(evt){
         sub_graph_svg.selectAll(".curve_path").remove();
         document.getElementById("sub_checkboxes").innerHTML = "";
+        let self = this;
         d3.csv(this.sub_path, function(data){
             console.log("sub_curves", data);
             let keys = d3.keys(data[0]);
@@ -70,13 +93,32 @@ class Curve{
                 sub_curves[i].add_checkbox();
             }
 
+            self.load_descr(self);
+            /*let descr = document.getElementById("descr");
+            console.log("descr",descr);
+            descr.textContent = self.descr;*/
+
+            self.load_img(self)
+            /*let myImage = new Image();
+            myImage.id = "image";
+            myImage.src = self.img_path;
+            myImage.setAttribute("class","unfocusable no_pointer_event");
+            let picture = document.getElementById("picture");
+            picture.innerHTML = "";
+            picture.appendChild(myImage);*/
         })
     }
+
     out(evt){
-        this.ref.attr("stroke-width", STROKE)
+        if(this.checkbox.checked === true){
+            this.ref.attr("stroke-width", STROKE)
+        }
     }
     hover(evt){
-        this.ref.attr("stroke-width", STROKE_OVER)
+        if(this.checkbox.checked === true){
+            this.ref.attr("stroke-width", STROKE_OVER)
+        }
+
     }
     checkbox_evt(evt){
         console.log("clicked");
