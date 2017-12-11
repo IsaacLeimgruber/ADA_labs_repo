@@ -16,7 +16,7 @@ axis.init_axis_vert = function(scale){
 };
 axis.init_ref = function(x, y, svg){
     return svg.append("g")
-        .style("font", "10px Verdana")
+        .style("font", "14px Verdana")
         .attr("transform", "translate(" + +(x) + "," + +(y) + ")")
         .attr("class", "axis unfocusable no_pointer_event");
 };

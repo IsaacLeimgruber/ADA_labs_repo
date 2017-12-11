@@ -1,3 +1,4 @@
+
 let root = d3.select("#root")
     .style("height", 100 - 2*margins.root + "%")
     .style("width", 100 - 2*margins.root + "%")
@@ -6,6 +7,7 @@ let root = d3.select("#root")
     .style("float", "left")
     .style("position", "absolute")
     .style("display", "inline-block");
+    //.style("overflow", "hidden");
 
 let left = root.append("div")
     .attr("id", "left")
@@ -52,23 +54,27 @@ let right = root.append("div")
 
 let picture = right.append("div")
     .attr("id", "picture")
-    .style("height", cst.picture_height + "%")
+    .style("height", cst.picture_height +"%")
     .style("width", 100 + "%")
     .style("float", "left")
-    .style("position", "absolute")
+    .style("position", "relative")
     .attr("viewBox", "0 0 58 50")
-    .attr("preserveAspectRatio", "xMinYMin")
+    .attr("preserveAspectRatio", "none")
     .style("display", "inline-block");
 
 let description = right.append("div")
     .attr("id", "descr")
-    .style("top", sub_cst.dscr_y + "%")
-    .style("height", sub_cst.dscr_height + "%")
+    .style("left", 0)
+    .style("text-align", "justified")
+    .style("top", margins.inner + "%")
+    .style("height", 100 - cst.picture_height +"%")
     .style("width", 100 + "%")
     .style("float", "left")
-    .style("position", "absolute")
-    .style("display", "inline-block");
+    .style("position", "relative")
+    .style("display", "inline-block")
+    .style("overflow-y", "scroll");
 
+document.documentElement.style.overflow = 'hidden';
 let checkbox = d3.select("#checkboxes")
     .style("width", cst.left_width + "%")
     .style("height", cst.checkbox_height + "%")
