@@ -1,5 +1,5 @@
-const STROKE = 5;
-const STROKE_OVER = 6;
+const STROKE = 4;
+const STROKE_OVER = 5;
 
 class Curve {
     constructor(key, data, sub_path, sub_svg, svg, color, descr, img, sub_infos) {

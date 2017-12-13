@@ -39,7 +39,7 @@ helpers.load_sub_data = function (keys, data, sub_paths, years, sub_curves, info
         }
         if (key !== 'Year') {
             sub_curves[iKey] = (new SubCurve(key, tmp_arr.slice(), DATA_FOLDER + sub_paths[iKey], sub_graph_svg,
-                graph_svg, COLORS[iKey], infos[1][key], infos[0][key]));
+                graph_svg, SUB_COLORS[iKey], infos[1][key], infos[0][key]));
             iKey++;
         }
     });

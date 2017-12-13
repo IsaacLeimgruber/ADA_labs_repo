@@ -30,5 +30,8 @@ const sub_cst = {
     sub_checkbox_y: cst.graph_height +  4*margins.inner
 };
 //const COLORS = ["blue", "green", "red"];
-const COLORS = ["#2196F3","#3F51B5","#f44336","#795548","#009688","#673AB7","#008744","#607D8B","#FFC107","#E91E63"];
+//const COLORS = ["#2196F3","#3F51B5","#f44336","#795548","#009688","#673AB7","#008744","#607D8B","#FFC107","#E91E63"];
+const COLORS = ["#795548","#7293cb","#d35e60","#4c4844","#000000","#6af275","#e0d618","#3e9651"];
+const SUB_COLORS = ["#396ab1", "#da7c30", "#3e9651", "#535154", "#922428", "#958a3d"];
+
 const DATA_FOLDER = "../data/";

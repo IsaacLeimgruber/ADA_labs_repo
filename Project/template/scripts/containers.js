@@ -72,7 +72,8 @@ let description = right.append("div")
     .style("float", "left")
     .style("position", "relative")
     .style("display", "inline-block")
-    .style("overflow-y", "scroll");
+    .style("overflow-y", "scroll")
+    .style("font", "14px Verdana");
 
 document.documentElement.style.overflow = 'hidden';
 let checkbox = d3.select("#checkboxes")
