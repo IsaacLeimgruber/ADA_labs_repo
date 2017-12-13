@@ -62,13 +62,13 @@ class Curve {
         let self = this;
         d3.csv(self.sub_path, function (data) {
             d3.csv(DATA_FOLDER + self.sub_infos, function (infos) {
-                console.log("sub_curves", data);
+
                 let keys = d3.keys(data[0]);
                 let years = [];
                 let sub_curves = [];
                 let max = 0;
                 max = helpers.load_sub_data(keys, data, sub_paths, years, sub_curves, infos);
-
+                console.log("sub_curves", sub_curves);
                 const first_year = years[0];
                 const last_year = years[years.length - 1];
 
