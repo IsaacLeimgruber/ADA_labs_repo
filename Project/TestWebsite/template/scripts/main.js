@@ -49,7 +49,5 @@ d3.csv(DATA_FOLDER + "final_data_perc.csv", function (data) {
 
         console.log("year", years);
         console.log("main_curves", curves)
-
     });
-
 });
