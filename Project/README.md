@@ -39,9 +39,11 @@ With interact such as:
 - Add of bullets to give detail on event that gave particular shift in the curves (opening of a power plant or historical event for example).
 - Possibility to select a given year and to have visual decription (barplot or similar). 
 
-## Final Milestone 
+# Final Milestone 
 
-We didn't have enough data, we needed to consider more sources, [Swiss Open Data](https://opendata.swiss/fr/) resources were limited. 
+## Dataset update : 
+
+after the previous milestone, we noticed that we didn't have enough data, we needed to consider more sources, [Swiss Open Data](https://opendata.swiss/fr/) resources were limited. 
 
 We were missing gas, wood, petrol, solar, hydroelectric and other renewable type of energies. (We only had nuclear power...)
 
@@ -75,7 +77,15 @@ After some research we found that they are some well in Switzerland (mainly coal
 
 Finally we had link an image to each energy source as well as a text describing what the energy represent and how it is used. This meant some more research on which subject to give most detailed explanation, all of this work can be found in the "Create data" part of the [notebook](https://github.com/IsaacLeimgruber/ADA_labs_repo/blob/master/Project/Project_Final.ipynb).
 
-##### Work separation : 
+## Website creation: 
+
+Following the above description (done for milestone 3), we create an interactive website on which you can select each source of energy and have a extended description of it with pictures and text. This [template](https://rawgit.com/IsaacLeimgruber/ADA_labs_repo/master/Project/TestWebsite/template/index.html), was then incorporated using a [iframe](https://developer.mozilla.org/fr/docs/Web/HTML/Element/iframe#Exemples) into a GitHub pages using [Jekyll](https://jekyllrb.com). We used GitHub as sourcing relying on [rawgit](http://rawgit.com)  to convert the files into browser interpretable ones. 
+
+Please find below below a description of the pipeline used to get our data story online.
+
+[This](https://github.com/IsaacLeimgruber/ADA_labs_repo/tree/master/Project/template) director stores the template of the website. [This one](https://github.com/IsaacLeimgruber/ADA_labs_repo/tree/master/Project/TestWebsite/template) is the browser interpretable version of the template, that we pass through [rawgit](http://rawgit.com) to give us [this](https://rawgit.com/IsaacLeimgruber/ADA_labs_repo/master/Project/TestWebsite/template/index.html) that we then incorporated as explained above. The final result can be seen under [this website](http://charlesthiebaut.github.io/jekyll/update/2017/12/13/ADA_Project.html).
+
+### Work separation : 
 
 Kevin: data research, processing and visualising, Isaac: data processing and visualising, website creation, Charles: data reaseach, website hosting, readme and datastory writting. 
 
