@@ -85,7 +85,7 @@ Please find below below a description of the pipeline used to get our data story
 
 [This](https://github.com/IsaacLeimgruber/ADA_labs_repo/tree/master/Project/template) director stores the template of the website. [This one](https://github.com/IsaacLeimgruber/ADA_labs_repo/tree/master/Project/TestWebsite/template) is the browser interpretable version of the template, that we pass through [rawgit](http://rawgit.com) to give us [this](https://rawgit.com/IsaacLeimgruber/ADA_labs_repo/master/Project/TestWebsite/template/index.html) that we then incorporated as explained above. The final result can be seen under [this website](http://charlesthiebaut.github.io/jekyll/update/2017/12/13/ADA_Project.html).
 
-### Work separation : 
+## Work separation 
 
 Kevin: data research, processing and visualising, Isaac: data processing and visualising, website creation, Charles: data reaseach, website hosting, readme and datastory writting. 
 
