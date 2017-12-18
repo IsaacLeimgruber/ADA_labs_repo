@@ -29,7 +29,9 @@ const sub_cst = {
     vb_graph_height: (100 - margins.inner - margins.graph_bottom)*cst.vb_height/100,
     sub_checkbox_y: cst.graph_height +  4*margins.inner
 };
-//const COLORS = ["blue", "green", "red"];
-const COLORS = ["#2196F3","#3F51B5","#f44336","#795548","#009688","#673AB7","#008744","#607D8B","#FFC107","#E91E63"];
+
+
 const DATA_FOLDER = "https://raw.githubusercontent.com/IsaacLeimgruber/ADA_labs_repo/master/Project/Data/";
-const SUB_COLORS = ["#396ab1", "#da7c30", "#3e9651", "#535154", "#922428", "#958a3d"];
+
+const COLORS = ["#795548","#7293cb","#d35e60","#4c4844","#000000","#6af275","#e0d618","#3e9651"];
+const SUB_COLORS = ["#396ab1", "#da7c30", "#3e9651", "#535154", "#922428", "#958a3d","#0000f", "#0a0f00", "#001f03", "#06f006", "#ff0000", "#f0f000","#f00ff0", "#f03450", "#1234f6", "#1f4536", "#9ff000", "#900f00","#00421f", "#987654", "#ae0751", "#5f515f", "#222628", "#9b8edd","#bc1345", "#b11f78"];
