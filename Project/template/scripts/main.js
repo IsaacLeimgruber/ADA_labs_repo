@@ -4,8 +4,8 @@ const sub_paths = [
     "wood_data.csv",
     "hydrau_avg_prod.csv",
     "ind_wast.csv",
-    "oil.csv",
     "coal.csv",
+    "oil.csv",
     "gas.csv",
     "trans_prod_nuc_perc.csv",
     "renew_eng.csv"
@@ -15,8 +15,8 @@ const sub_infos = [
     'wood_img_text.csv',
     'hydro_img_text.csv',
     'ind_wast_img_text.csv',
-    'oil_img_text.csv',
     'coal_img_text.csv',
+    'oil_img_text.csv',
     'gas_img_text.csv',
     'nucl_img_text.csv',
     'renew_img_text.csv'
