@@ -11,7 +11,7 @@ const cst = {
 const margins = {
     root: 2,
     inner: 2,
-    graph_left: 15,
+    graph_left: 20,
     graph_bottom: 7
 };
 
