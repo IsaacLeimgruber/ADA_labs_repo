@@ -1,15 +1,13 @@
-# Title 
-Evolution of the Swiss Energy Production from 1910 to 2014.
-
-# Abstract
+# Evolution of the Swiss Energy Production. 
+## Abstract
 On this project we would like to see the evolution of the Swiss energy during roughly 100 years and determine the velocity of the energy transition. The goal is to understand how the energy consumption evolved during a set period and analyse whether the energetic transition is on its way or not. Another objective is to allow a lambda user to play with the data and display only the sources he is interested in. This easy informative tool shows straightforward insight into the Swiss energetic climate and its past evolutions. To achieve this project, we will use a dataset provided by Swiss Open Data called “Gross energy consumption: Share of primary energy carriers“ which contains everything that we need; Ratios and raw values of the energy consumption in Switzerland per source and for each year. 
 
-# Research questions
+## Research questions
 - How did the energy production diversified over the years in Switzerland?
 - Can we observe some changes in the sources in these 20 last years?
 - How static is the energy production in Switzerland?
 
-# Dataset
+## Dataset
 As said before we want to use the data set of [Swiss Open Data](https://opendata.swiss/fr/) called [Gross energy consumption: Share of primary energy carriers](https://opendata.swiss/en/dataset/bruttoenergieverbrauch-anteil-der-primarenergietrager).
 In this set we have access to the shares of each energy source in Swiss and it’s in raw production from 1910 to 2014. For example, we know that in 1910 the wood and charcoal represented 16.27% of the total Swiss energy consumption and in 2014 in was only to 3.47%.
 
@@ -43,7 +41,7 @@ With interact such as:
 
 ## Dataset update : 
 
-after the previous milestone, we noticed that we didn't have enough data, we needed to consider more sources, [Swiss Open Data](https://opendata.swiss/fr/) resources were limited. 
+After the previous milestone, we noticed that we didn't have enough data, we needed to consider more sources, [Swiss Open Data](https://opendata.swiss/fr/) resources were limited. 
 
 We were missing gas, wood, petrol, solar, hydroelectric and other renewable type of energies. (We only had nuclear power...)
 
@@ -53,7 +51,7 @@ However many of those reports were PDFs and data needed to be extracted from the
 
 ##### For hydraulic power : 
 
-We used [this list of reports](http://www.bfe.admin.ch/themen/00490/00491/index.html?dossier_id=01049&lang=fr) to find the hydraulic plants of Switzerland. We had to select from this list over their date and information. From there we found the average production per year and per canton, how many plants is there per canton as well as the detail of each of those plants. However as stated above, the report were PDFs so had to be converted to CSV before they could be cleaned and merged (all that process is done and explained in the [notebook](https://github.com/IsaacLeimgruber/ADA_labs_repo/blob/master/Project/Project_Final.ipynb)).  We've started by doing graphs separating by plant and by canton to see their evolution of production over time. But some cantons, like Argovie, have more then 30 plants while others like Appenzell Rh. int./ext. only have 5. We've discussed ways to better represent such differences and chose to select the 5 most significant plant per canton (the ones that had the highest production in 2017). We decided to save the graphs that represent the average annual GW/h per year and to compare only their winter to summer production difference in the [notebook](https://github.com/IsaacLeimgruber/ADA_labs_repo/blob/master/Project/Project_Final.ipynb).
+We used [this list of reports](http://www.bfe.admin.ch/themen/00490/00491/index.html?dossier_id=01049&lang=fr) to find the hydraulic plants of Switzerland. We had to select from this list over their dates and information. From there we found the average production per year and per canton, how many plants is there per canton as well as the detail of each of those plants. However as stated above, the report were PDFs so had to be converted to CSV before they could be cleaned and merged (all that process is done and explained in the [notebook](https://github.com/IsaacLeimgruber/ADA_labs_repo/blob/master/Project/Project_Final.ipynb)).  We've started by doing graphs separating by plant and by canton to see their evolution of production over time. But some cantons, like Argovie, have more then 30 plants while others like Appenzell Rh. int./ext. only have 5. We've discussed ways to better represent such differences and chose to select the 5 most significant plant per canton (the ones that had the highest production in 2017). We decided to save the graphs that represent the average annual GW/h per year and to compare only their winter to summer production difference in the [notebook](https://github.com/IsaacLeimgruber/ADA_labs_repo/blob/master/Project/Project_Final.ipynb).
 
 The search for viable data continue and the next found was on wood. 
 
@@ -73,9 +71,9 @@ All sources and reports are from the confederation.
 
 Having gathered all these additional datas, we looked at other energies sources such as petrol, gas, coal as well as industrial waste. 
 
-After some research we found that they are some well in Switzerland (mainly coal and gas) but that those are not used as energy sources for the general public. We therefore chose to show the consumption (in Tera Joules) of those sources in our visuals (using the first dataset that we've found, mentioned above).  
+After some research we found that there are some well in Switzerland (mainly coal and gas) but that those are not used as energy sources for the general public. We therefore chose to show the consumption (in Tera Joules) of those sources in our visuals (using the first dataset that we've found, mentioned above).  
 
-Finally we had link an image to each energy source as well as a text describing what the energy represent and how it is used. This meant some more research on which subject to give most detailed explanation, all of this work can be found in the "Create data" part of the [notebook](https://github.com/IsaacLeimgruber/ADA_labs_repo/blob/master/Project/Project_Final.ipynb).
+Finally we linked an image to each energy source as well as a text describing what the energy represent and how it is used. This meant some more research on which subject to give most detailed explanation, all of this work can be found in the "Create data" part of the [notebook](https://github.com/IsaacLeimgruber/ADA_labs_repo/blob/master/Project/Project_Final.ipynb).
 
 ## Website creation: 
 
@@ -87,7 +85,7 @@ Please find below below a description of the pipeline used to get our data story
 
 ## Work separation 
 
-Kevin: data research, processing and visualising, Isaac: data processing and visualising, website creation, Charles: data reaseach, website hosting, readme and datastory writting. 
+Kevin: data research, processing and visualising, Isaac: data processing and visualising, website creation, Charles: data research, website hosting, readme and data story writing. 
 
 # Questions for TAs
 Please Look at the Project_Final.ipynb (the Interaction.ipynb use Jupyter Widget and for now don't work on git).
