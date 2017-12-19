@@ -67,7 +67,7 @@ This was also the case for the other renewable sources:
 
 - [Wind Power](http://www.suisse-eole.ch/fr/energie-eolienne/statistiques/ )
 - [Geothermal](https://github.com/IsaacLeimgruber/ADA_labs_repo/blob/master/Project/Data/pdf/Geothermiestatistik_Schweiz_Ausgabe_2016_RWGEO.2017.07.20.pdf)
-- [Solar](https://github.com/IsaacLeimgruber/ADA_labs_repo/blob/master/Project/Data/pdf/SunRecensement_2016_def.pdff)
+- [Solar](https://github.com/IsaacLeimgruber/ADA_labs_repo/blob/master/Project/Data/pdf/SunRecensement_2016_def.pdf)
 
 All sources and reports are from the confederation. 
 
