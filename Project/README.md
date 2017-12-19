@@ -83,7 +83,7 @@ Following the above description (done for milestone 3), we create an interactive
 
 Please find below below a description of the pipeline used to get our data story online.
 
-[This](https://github.com/IsaacLeimgruber/ADA_labs_repo/tree/master/Project/template) director stores the template of the website. [This one](https://github.com/IsaacLeimgruber/ADA_labs_repo/tree/master/Project/TestWebsite/template) is the browser interpretable version of the template, that we pass through [rawgit](http://rawgit.com) to give us [this](https://rawgit.com/IsaacLeimgruber/ADA_labs_repo/master/Project/TestWebsite/template/index.html) that we then incorporated as explained above. The final result can be seen under [this website](http://charlesthiebaut.github.io/jekyll/update/2017/12/13/ADA_Project.html).
+[This](https://github.com/IsaacLeimgruber/ADA_labs_repo/tree/master/Project/template) director stores the template of the website. [This one](https://github.com/IsaacLeimgruber/ADA_labs_repo/tree/master/Project/TestWebsite/template) is the browser interpretable version of the template, that we pass through [rawgit](http://rawgit.com) to give us [this](https://rawgit.com/IsaacLeimgruber/ADA_labs_repo/master/Project/TestWebsite/template/index.html) that we then incorporated as explained above. The final result can be seen under [this website](http://charlesthiebaut.github.io/jekyll/update/2017/12/12/ADA_Project.html). Please find the website code [here](https://github.com/charlesthiebaut/charlesthiebaut.github.io)
 
 ## Work separation 
 
