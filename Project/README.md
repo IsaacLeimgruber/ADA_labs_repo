@@ -90,4 +90,4 @@ Please find below below a description of the pipeline used to get our data story
 
 ## Work separation 
 
-Kevin: data research, processing and visualising, Isaac: data processing and visualising, website creation, Charles: data research, website hosting, readme and data story writing. 
+Kevin: data research, processing and visualising, Isaac: data processing and visualising, website creation, Charles: data research, website hosting, data story writing. 
