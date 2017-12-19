@@ -37,6 +37,11 @@ With interact such as:
 - Add of bullets to give detail on event that gave particular shift in the curves (opening of a power plant or historical event for example).
 - Possibility to select a given year and to have visual decription (barplot or similar). 
 
+# Questions for TAs
+Please Look at the Project_Final.ipynb (the Interaction.ipynb use Jupyter Widget and for now don't work on git).
+
+We did some analysis on the data and we want to do something more visual too, but will it be accepted for the project?
+
 # Final Milestone 
 
 ## Dataset update : 
@@ -86,8 +91,3 @@ Please find below below a description of the pipeline used to get our data story
 ## Work separation 
 
 Kevin: data research, processing and visualising, Isaac: data processing and visualising, website creation, Charles: data research, website hosting, readme and data story writing. 
-
-# Questions for TAs
-Please Look at the Project_Final.ipynb (the Interaction.ipynb use Jupyter Widget and for now don't work on git).
-
-We did some analysis on the data and we want to do something more visual too, but will it be accepted for the project?
